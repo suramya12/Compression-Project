@@ -109,9 +109,9 @@ class NeuralCompressor:
             self._log(f"Loading {model_name} quality {quality} on {device}...")
 
             if model_name == "elic":
-                from .models.elic import ELIC
-                model = ELIC(N=192, M=320)
-                model.update()  # Initialize entropy model CDFs
+                from compressai.zoo import elic2022_chandelier
+                model = elic2022_chandelier(quality=quality, pretrained=True)
+                model.update()  # Update entropy model CDFs
             elif model_name == "mbt2018_mean":
                 from compressai.zoo import mbt2018_mean
                 model = mbt2018_mean(quality=quality, pretrained=True)
