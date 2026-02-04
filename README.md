@@ -19,6 +19,38 @@ A Python image compression toolkit supporting three complementary strategies:
 | Batch processing | Compress entire directories in one command |
 | NCI2 backward compat | Decoder auto-detects and handles legacy NCI2 files |
 
+## Benchmark Results
+
+Comparison of NCI3 neural compression vs lossless formats on RAW camera images:
+
+### Summary
+
+| Format | Avg Compression | Avg Size | Avg Time | Quality (SSIM) |
+|--------|-----------------|----------|----------|----------------|
+| **NCI3 (Neural)** | **47.7:1** | **3.69 MB** | **8.0s** | 99.28% |
+| JPEG-XL (lossless) | 1.22:1 | 54.9 MB | 279s | 100% |
+| AVIF (lossless) | 1.03:1 | 64.7 MB | 31s | 100% |
+| PNG (optimized) | 1.02:1 | 64.5 MB | 24s | 100% |
+
+**Key findings:**
+- **NCI3 is 17x smaller** than lossless formats while maintaining 99.28% visual quality
+- **35x faster** than JPEG-XL lossless compression
+- Achieves **6:1 to 155:1 compression** depending on image content
+
+### Per-Image Results (Sample)
+
+| Image | Resolution | NCI3 | JXL | AVIF | PNG |
+|-------|------------|------|-----|------|-----|
+| DSC01658.ARW | 5496×3672 | **1.0 MB** | 19.9 MB | 25.4 MB | 26.2 MB |
+| DSC06430.ARW | 9566×6374 | **5.1 MB** | 83.6 MB | 98.5 MB | 96.0 MB |
+| DSC06447.ARW | 9566×6374 | **0.4 MB** | 46.4 MB | 50.8 MB | 58.4 MB |
+
+### Run Your Own Benchmark
+
+```bash
+python benchmark.py /path/to/images -o ./benchmark_output --quality 6
+```
+
 ## Installation
 
 ```bash

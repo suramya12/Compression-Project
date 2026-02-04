@@ -1,0 +1,299 @@
+{
+  "timestamp": "2026-02-05T00:18:27.785908",
+  "input_dir": "/home/kaito/Documents/Test",
+  "output_dir": "benchmark_output",
+  "num_images": 5,
+  "formats": [
+    "nci3",
+    "jxl_lossless",
+    "avif_lossless",
+    "png_optimized"
+  ],
+  "results": [
+    {
+      "image_name": "- credit_signatureedits.com - DSC01658.ARW",
+      "original_path": "/home/kaito/Documents/Test/- credit_signatureedits.com - DSC01658.ARW",
+      "original_size": 21297152,
+      "width": 5496,
+      "height": 3672,
+      "results": {
+        "nci3": {
+          "format_name": "nci3",
+          "original_size": 27554808,
+          "compressed_size": 1007624,
+          "compression_ratio": 27.34631965892039,
+          "compression_time": 5.992013692855835,
+          "decompression_time": 8.719570875167847,
+          "ssim": 0.9946485981191456,
+          "psnr": 30.508387845454035,
+          "success": true,
+          "error": ""
+        },
+        "jxl_lossless": {
+          "format_name": "jxl_lossless",
+          "original_size": 27554808,
+          "compressed_size": 20858095,
+          "compression_ratio": 1.3210606241845193,
+          "compression_time": 84.89346575737,
+          "decompression_time": 7.734872817993164,
+          "ssim": 1.0,
+          "psnr": Infinity,
+          "success": true,
+          "error": ""
+        },
+        "avif_lossless": {
+          "format_name": "avif_lossless",
+          "original_size": 27554808,
+          "compressed_size": 26628962,
+          "compression_ratio": 1.0347683848886036,
+          "compression_time": 17.648026943206787,
+          "decompression_time": 8.693045139312744,
+          "ssim": 1.0,
+          "psnr": Infinity,
+          "success": true,
+          "error": ""
+        },
+        "png_optimized": {
+          "format_name": "png_optimized",
+          "original_size": 27554808,
+          "compressed_size": 27498949,
+          "compression_ratio": 1.002031313996764,
+          "compression_time": 11.023839473724365,
+          "decompression_time": 0,
+          "ssim": 1.0,
+          "psnr": Infinity,
+          "success": true,
+          "error": ""
+        }
+      }
+    },
+    {
+      "image_name": "- credit_signatureedits.com - P1011960.RW2",
+      "original_path": "/home/kaito/Documents/Test/- credit_signatureedits.com - P1011960.RW2",
+      "original_size": 36103680,
+      "width": 6024,
+      "height": 4016,
+      "results": {
+        "nci3": {
+          "format_name": "nci3",
+          "original_size": 57096568,
+          "compressed_size": 9578535,
+          "compression_ratio": 5.960887338199422,
+          "compression_time": 4.2873313426971436,
+          "decompression_time": 8.16015100479126,
+          "ssim": 0.9771341485139627,
+          "psnr": 26.413546958008478,
+          "success": true,
+          "error": ""
+        },
+        "jxl_lossless": {
+          "format_name": "jxl_lossless",
+          "original_size": 57096568,
+          "compressed_size": 52122535,
+          "compression_ratio": 1.0954296064072861,
+          "compression_time": 100.90964221954346,
+          "decompression_time": 3.4150331020355225,
+          "ssim": 1.0,
+          "psnr": Infinity,
+          "success": true,
+          "error": ""
+        },
+        "avif_lossless": {
+          "format_name": "avif_lossless",
+          "original_size": 57096568,
+          "compressed_size": 63432839,
+          "compression_ratio": 0.9001105563003415,
+          "compression_time": 18.718190908432007,
+          "decompression_time": 6.569715738296509,
+          "ssim": 1.0,
+          "psnr": Infinity,
+          "success": true,
+          "error": ""
+        },
+        "png_optimized": {
+          "format_name": "png_optimized",
+          "original_size": 57096568,
+          "compressed_size": 56541625,
+          "compression_ratio": 1.0098147692076413,
+          "compression_time": 3.567913770675659,
+          "decompression_time": 0,
+          "ssim": 1.0,
+          "psnr": Infinity,
+          "success": true,
+          "error": ""
+        }
+      }
+    },
+    {
+      "image_name": "DSC06430.ARW",
+      "original_path": "/home/kaito/Documents/Test/DSC06430.ARW",
+      "original_size": 72540160,
+      "width": 9566,
+      "height": 6374,
+      "results": {
+        "nci3": {
+          "format_name": "nci3",
+          "original_size": 102813957,
+          "compressed_size": 5359106,
+          "compression_ratio": 19.184908266416077,
+          "compression_time": 9.882540941238403,
+          "decompression_time": 33.7679717540741,
+          "ssim": 0.9962915452269826,
+          "psnr": 34.04110174643943,
+          "success": true,
+          "error": ""
+        },
+        "jxl_lossless": {
+          "format_name": "jxl_lossless",
+          "original_size": 102813957,
+          "compressed_size": 87701245,
+          "compression_ratio": 1.1723203815407637,
+          "compression_time": 342.40105056762695,
+          "decompression_time": 12.91533613204956,
+          "ssim": 1.0,
+          "psnr": Infinity,
+          "success": true,
+          "error": ""
+        },
+        "avif_lossless": {
+          "format_name": "avif_lossless",
+          "original_size": 102813957,
+          "compressed_size": 103331714,
+          "compression_ratio": 0.9949893698656735,
+          "compression_time": 45.85486054420471,
+          "decompression_time": 16.960782766342163,
+          "ssim": 1.0,
+          "psnr": Infinity,
+          "success": true,
+          "error": ""
+        },
+        "png_optimized": {
+          "format_name": "png_optimized",
+          "original_size": 102813957,
+          "compressed_size": 100686238,
+          "compression_ratio": 1.0211321729986576,
+          "compression_time": 14.454386472702026,
+          "decompression_time": 0,
+          "ssim": 1.0,
+          "psnr": Infinity,
+          "success": true,
+          "error": ""
+        }
+      }
+    },
+    {
+      "image_name": "DSC06434.ARW",
+      "original_path": "/home/kaito/Documents/Test/DSC06434.ARW",
+      "original_size": 73314304,
+      "width": 9566,
+      "height": 6374,
+      "results": {
+        "nci3": {
+          "format_name": "nci3",
+          "original_size": 93405004,
+          "compressed_size": 3002274,
+          "compression_ratio": 31.111418877823944,
+          "compression_time": 10.20313572883606,
+          "decompression_time": 28.119139432907104,
+          "ssim": 0.996073341549608,
+          "psnr": 35.715980463346185,
+          "success": true,
+          "error": ""
+        },
+        "jxl_lossless": {
+          "format_name": "jxl_lossless",
+          "original_size": 93405004,
+          "compressed_size": 78456418,
+          "compression_ratio": 1.1905336284916805,
+          "compression_time": 690.415657043457,
+          "decompression_time": 19.037177562713623,
+          "ssim": 1.0,
+          "psnr": Infinity,
+          "success": true,
+          "error": ""
+        },
+        "avif_lossless": {
+          "format_name": "avif_lossless",
+          "original_size": 93405004,
+          "compressed_size": 92376816,
+          "compression_ratio": 1.0111303684682096,
+          "compression_time": 46.025092363357544,
+          "decompression_time": 21.828689336776733,
+          "ssim": 1.0,
+          "psnr": Infinity,
+          "success": true,
+          "error": ""
+        },
+        "png_optimized": {
+          "format_name": "png_optimized",
+          "original_size": 93405004,
+          "compressed_size": 92197290,
+          "compression_ratio": 1.0130992353462884,
+          "compression_time": 19.941543102264404,
+          "decompression_time": 0,
+          "ssim": 1.0,
+          "psnr": Infinity,
+          "success": true,
+          "error": ""
+        }
+      }
+    },
+    {
+      "image_name": "DSC06447.ARW",
+      "original_path": "/home/kaito/Documents/Test/DSC06447.ARW",
+      "original_size": 71376896,
+      "width": 9566,
+      "height": 6374,
+      "results": {
+        "nci3": {
+          "format_name": "nci3",
+          "original_size": 65034761,
+          "compressed_size": 420074,
+          "compression_ratio": 154.81739169765328,
+          "compression_time": 9.696956396102905,
+          "decompression_time": 17.923430919647217,
+          "ssim": 0.9997830197786348,
+          "psnr": 42.74523215105768,
+          "success": true,
+          "error": ""
+        },
+        "jxl_lossless": {
+          "format_name": "jxl_lossless",
+          "original_size": 65034761,
+          "compressed_size": 48684677,
+          "compression_ratio": 1.335836345386455,
+          "compression_time": 176.72177624702454,
+          "decompression_time": 21.78832745552063,
+          "ssim": 1.0,
+          "psnr": Infinity,
+          "success": true,
+          "error": ""
+        },
+        "avif_lossless": {
+          "format_name": "avif_lossless",
+          "original_size": 65034761,
+          "compressed_size": 53240988,
+          "compression_ratio": 1.2215167945418293,
+          "compression_time": 28.81366515159607,
+          "decompression_time": 23.520328998565674,
+          "ssim": 1.0,
+          "psnr": Infinity,
+          "success": true,
+          "error": ""
+        },
+        "png_optimized": {
+          "format_name": "png_optimized",
+          "original_size": 65034761,
+          "compressed_size": 61196972,
+          "compression_ratio": 1.0627120734012787,
+          "compression_time": 71.89864563941956,
+          "decompression_time": 0,
+          "ssim": 1.0,
+          "psnr": Infinity,
+          "success": true,
+          "error": ""
+        }
+      }
+    }
+  ]
+}

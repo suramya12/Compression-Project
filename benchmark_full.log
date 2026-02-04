@@ -1,0 +1,5 @@
+nohup: ignoring input
+/home/kaito/Documents/AG-Project/Compression Project/.venv/lib/python3.12/site-packages/compressai/models/video/google.py:353: FutureWarning: `torch.cuda.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cuda', args...)` instead.
+  @amp.autocast(enabled=False)
+/home/kaito/Documents/AG-Project/Compression Project/src/neural_compressor.py:600: RuntimeWarning: invalid value encountered in cast
+  result_img = (canvas / weight[:, :, np.newaxis]).clip(0, 255).astype(np.uint8)
